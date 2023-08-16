@@ -3,6 +3,10 @@ Web application to manage portafolios of stocks. Permits simulated buying and se
 
 In this project, I developed a comprehensive stock trading web application that allows users to register, log in, buy and sell stocks, view their portfolio, transaction history, and even incorporate personalized features. The main aim was to create a user-friendly interface that enables users to seamlessly interact with stock data and make transactions while incorporating essential security measures.
 
+This project allowed me to create a functional and feature-rich stock trading web application. Through the process, I gained valuable insights into web development, database management, security, and user interface design, which are essential skills in modern software development.
+
+Project tasks description:
+
 -Register and Login:
 I implemented the registration process that requires users to provide a unique username and password. The password is securely hashed using the generate_password_hash function to enhance security. In case of errors, the application renders appropriate apologies, ensuring smooth user interaction.
 
@@ -20,3 +24,11 @@ The index route displays an HTML table summarizing the user's portfolio, includi
 
 -Personal Touch: Password Change and Additional Cash:
 I implemented a feature that allows users to change their passwords securely. Additionally, users can add extra cash to their accounts, which expands their trading capabilities. These features provide users with greater control and flexibility.
+
+Throughout the development of this project, I gained a deeper understanding of the following concepts:
+
+-User Authentication and Security: Implementing secure user registration and login processes was crucial. I learned about hashing passwords to protect user data and prevent unauthorized access.
+-Database Management: Creating and managing database tables for user information, stock data, and transaction history required careful consideration of database design principles and appropriate use of SQLite features.
+-Form Validation: Ensuring that user input is valid and error-free was essential. I learned how to validate user inputs and provide informative error messages.
+-Frontend Development: Designing user interfaces using HTML and CSS, and integrating them with backend logic, helped me understand the importance of user-friendly design and smooth navigation.
+-SQL Queries and Database Interaction: Writing efficient SQL queries to retrieve, insert, and update data in the database was a key skill developed during this project.
