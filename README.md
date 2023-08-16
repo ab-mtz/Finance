@@ -28,7 +28,11 @@ I implemented a feature that allows users to change their passwords securely. Ad
 Throughout the development of this project, I gained a deeper understanding of the following concepts:
 
 -User Authentication and Security: Implementing secure user registration and login processes was crucial. I learned about hashing passwords to protect user data and prevent unauthorized access.
+
 -Database Management: Creating and managing database tables for user information, stock data, and transaction history required careful consideration of database design principles and appropriate use of SQLite features.
+
 -Form Validation: Ensuring that user input is valid and error-free was essential. I learned how to validate user inputs and provide informative error messages.
+
 -Frontend Development: Designing user interfaces using HTML and CSS, and integrating them with backend logic, helped me understand the importance of user-friendly design and smooth navigation.
+
 -SQL Queries and Database Interaction: Writing efficient SQL queries to retrieve, insert, and update data in the database was a key skill developed during this project.
