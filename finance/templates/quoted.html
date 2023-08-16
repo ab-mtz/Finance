@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+    <container>
+        <p>A stock from {{ result.name }} currently costs {{ result.price | usd() }}</p>
+    </container>
+
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+<div class="mb-3">
+    {% for u in user %}
+    <div class="mb-3">
+        <label>Hello, {{ u.username }} </label>
+    </div>
+    <form action="/password" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="currentPass" name="currentPass" placeholder="Current password" required type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="newPass" name="newPass" placeholder="New password" required type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="confirmation" name="confirmation" placeholder="Confirm new password" required type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Change password</button>
+    </form>
+
+    {% endfor %}
+</div>
+{% endblock %}

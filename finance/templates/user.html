@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+<div class="mb-3">
+    {% for user in userInfo %}
+    <div class="mb-3">
+        <label>Username:  {{ user.username }} </label>
+    </div>
+    <div class="mb-3">
+        <a class="nav-link" href="/password">Change password</a></li>
+    </div>
+    <div class="mb-3">
+        <label>Cash:  {{ user.cash }} </label>
+    </div>
+    <div class="mb-3">
+        <a class="nav-link" href="/cash">Get cash</a></li>
+    </div>
+
+    {% endfor %}
+</div>
+{% endblock %}
