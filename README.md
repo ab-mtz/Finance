@@ -1,5 +1,5 @@
 # Finance
-Web application to manage portafolios of stocks. Permits simulated buying and selling of stocks based on price queries (real time). Backend built with Flask. Frontend: HTML5, CSS.  
+Web application to manage portafolios of stocks. Permits simulated buying and selling of stocks based on price queries (real time). Backend built with Flask. Frontend: HTML5, CSS. DB: Sqlite.
 
 In this project, I developed a comprehensive stock trading web application that allows users to register, log in, buy and sell stocks, view their portfolio, transaction history, and even incorporate personalized features. The main aim was to create a user-friendly interface that enables users to seamlessly interact with stock data and make transactions while incorporating essential security measures.
 
